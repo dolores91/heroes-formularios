@@ -1,0 +1,32 @@
+@import url(styles.css);
+
+h2{
+  font-size: 72px;
+  font-weight: 700;
+  margin-bottom: 3%;
+}
+.contenedor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input{
+  height: 40px;
+  width: 250px;
+  margin: 0.5%;
+}
+.enviar{
+  background-color:#1CD1B0;
+  color: white;
+  border-radius: 15px;
+  
+}
+.botones{
+  display: flex;
+  justify-content: center;
+  
+}
+h3{
+  text-align: center;
+  margin-bottom: 10%;
+}

@@ -1,0 +1,270 @@
+* {
+ margin: 0%;
+ padding: 0%;
+ font-family: 'Roboto', sans-serif;
+ box-sizing: border-box;
+ /*outline: 1px solid red;*/
+
+}
+
+a:link, a:visited, a {
+
+    color: unset;
+    text-decoration: none;
+    background-color: none;
+    
+    }
+
+/* --------------H E A D E R------------- */
+
+.descuentos {
+    background-color: #1CD1B0;
+    text-align: left;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    height: 23px;
+    font-size: 15px;
+    
+    
+}
+
+
+header {
+    background-color: #00669F;
+    /*height: 150px;*/
+    width: 100%;
+    text-align: left;
+    box-shadow: 2px 2px 5px #999;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*position: relative;*/
+}
+
+h1 {
+    text-align: left;
+    /*padding-top: 30px;
+    padding-left: 20px;*/
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 300;
+}
+.logotitulo {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.logotienda {
+    width: 80px;
+    padding-top: 10px;
+}
+
+.menupadre {
+    background-color: #001D2D;
+    color: #FFF;
+    font-size: 1em;
+    height: 40px;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 10px;
+    
+}
+
+.menu li {
+    padding-right: 5px;
+    
+}
+
+/* ---------- M A I N-------------- */
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px;
+    width: 100%;
+    position: relative;
+
+}
+
+.fa-plus {
+    color: #FFF;
+    font-size: 2em;
+ 
+}
+
+.botonmas {
+    background-color: #00669F;
+    border-radius: 50%;
+    padding: 8px;
+    z-index: 999;
+    position: fixed;
+    top: 50%;
+    right: 0.5%;
+    margin: 0;
+}
+
+.batman, .harley, .mujer, .superman {
+    background-color: #F3F3F3;
+    height: 620px;
+    width: 260px;
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px #999;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+    margin: 10px;
+
+}
+
+.batmandos {
+    background-image: url(/img/batman.png);
+    height: 193px;
+    border-radius: 15px 15px 0 0;
+
+    
+}
+
+.harleydos {
+    background-image: url(/img/mujermaravilla.png);
+    background-size: cover;
+    height: 193px;
+    border-radius: 15px 15px 0 0;
+
+}
+
+.supermandos {
+    background-image: url(/img/batman.png);
+    background-size: cover;
+    height: 193px;
+    border-radius: 15px 15px 0 0;
+
+}
+
+.mujerdos {
+    background-image: url(/img/mujermaravilla.png);
+    height: 193px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+
+}
+
+.fa-heart {
+    color: red;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    
+}
+
+.icon {
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    
+}
+
+.descripcion {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h2  {
+    font-size: 1.7em;
+    text-align: center;
+    padding-top: 20%;
+}
+
+p {
+    font-size: 1em;
+    padding: 20px;
+}
+
+.vermas { 
+    background-color: #00669F;
+    color: #FFF;
+    width: 100px;
+    height: 40px;
+    padding-top: 10px;
+    margin: 0;
+    text-align: center;
+    margin-left: 30%;
+    position: absolute;
+    top: 90%;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #00669F;
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.git { 
+    width: 100px;
+    padding-right: 10px;
+   
+    
+}
+
+.gitpadreuno {
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+}
+
+.gitpadredos {
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+}
+
+@media (max-width: 768px) {
+    footer {
+        font-size: 1em;
+}
+
+.batman, .harley, .mujer, .superman {
+    margin-top: 30px ;
+}
+
+section {
+    padding: 30px;
+}
+
+.botonmas { 
+    top: 74%;
+}
+}
+
+@media (max-width: 460px) {
+    footer {
+        font-size: 0.5em;
+}
+
+/*.fa-plus {
+    font-size: 1em;
+ 
+}
+
+.botonmas {
+    padding: 7px;
+}
+*/
+}
